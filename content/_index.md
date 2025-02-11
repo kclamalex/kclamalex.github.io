@@ -1,3 +1,0 @@
----
-title: "kclamalex's blog"
----

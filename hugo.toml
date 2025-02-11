@@ -1,8 +1,19 @@
 baseURL = 'https://kclamalex.github.io/'
 languageCode = 'en'
-title = 'kclamalex'
+title = "kclamalex"
 theme = "hugo-bearcub"
+copyright = "Alex Lam (CC BY 4.0)"
 
-[params]
-  # The description of your website
-  description = "kclamalex's blog"
+[languages]
+  [languages.en]
+    title = "kclamalex"
+    languageName = "en-US 🇺"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      description = ""
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+
+[params.author]
+name = "Alex Lam"
+email = "kclamalex@gmail.com"
