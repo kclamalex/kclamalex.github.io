@@ -3,4 +3,6 @@ languageCode = 'en'
 title = 'kclamalex'
 theme = "hugo-bearcub"
 
-
+[params]
+  # The description of your website
+  description = "kclamalex's blog"
